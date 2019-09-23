@@ -54,28 +54,17 @@ article .Large .itemL {
 
 article .Small {
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 30px; }
-  article .Small .itemS1 {
+  article .Small .itemS {
     font-family: 'Karla', sans-serif;
     margin: 0 0 40px 0; }
-    article .Small .itemS1__image {
+    article .Small .itemS__image {
       width: 370px;
       margin-bottom: 18px; }
-    article .Small .itemS1__brand {
+    article .Small .itemS__brand {
       font-size: 15px;
       color: #A5A5A5; }
-    article .Small .itemS1__price {
-      float: right; }
-  article .Small .itemS2 {
-    font-family: 'Karla', sans-serif;
-    margin: 0 0 40px 0; }
-    article .Small .itemS2__image {
-      width: 370px;
-      margin-bottom: 18px; }
-    article .Small .itemS2__brand {
-      font-size: 15px;
-      color: #A5A5A5; }
-    article .Small .itemS2__price {
+    article .Small .itemS__price {
       float: right; }

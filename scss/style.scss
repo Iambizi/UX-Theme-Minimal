@@ -71,10 +71,10 @@ article{
   }
   .Small{
     display: grid;
-    grid-template-rows: 1fr 1fr; 
+    grid-template-rows: 1fr; 
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 30px;
-    .itemS1{
+    .itemS{
       font-family: 'Karla', sans-serif;
       margin: 0 0 40px 0;
       &__image{
@@ -89,21 +89,5 @@ article{
         float: right;
       }
     }
-    .itemS2{
-      font-family: 'Karla', sans-serif;
-      margin: 0 0 40px 0;
-      &__image{
-        width: 370px;
-        margin-bottom: 18px;
-      }
-      &__brand{
-        font-size:15px;
-        color:#A5A5A5;
-      }
-      &__price{
-        float: right;
-      }
-    }
-  }
-  
+  }  
 }
