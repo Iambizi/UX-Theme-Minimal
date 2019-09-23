@@ -54,7 +54,7 @@ article .Large .itemL {
 
 article .Small {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 30px; }
   article .Small .itemS1 {
