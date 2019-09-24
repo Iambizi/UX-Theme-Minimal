@@ -68,3 +68,72 @@ article .Small {
       color: #A5A5A5; }
     article .Small .itemS__price {
       float: right; }
+
+.footer .ufooter {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  font-family: 'Karla', sans-serif;
+  margin-bottom: 40px; }
+  .footer .ufooterlinks__ext {
+    width: 274px;
+    height: 91.5px;
+    color: #000;
+    border: 2px solid #f2f2f2;
+    text-align: center; }
+    .footer .ufooterlinks__ext a {
+      color: #000;
+      text-decoration: none; }
+      .footer .ufooterlinks__ext a h3 {
+        font-size: 15px;
+        font-weight: 700;
+        margin: 20px 0 0 0;
+        text-transform: uppercase;
+        text-align: center; }
+      .footer .ufooterlinks__ext a p {
+        font-size: 12px;
+        font-weight: 400; }
+
+.footer .lfooter {
+  display: grid;
+  grid-gap: 25px;
+  grid-template-columns: 1fr 1fr 1fr 1fr; }
+  .footer .lfooter a {
+    color: #000;
+    text-decoration: none; }
+  .footer .lfooter__storeTtl h3 {
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5em; }
+  .footer .lfooter__storeTtl p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 300; }
+  .footer .lfooter__contact h3, .footer .lfooter__Newsletter h3 {
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5em; }
+  .footer .lfooter__contact a, .footer .lfooter__contact p, .footer .lfooter__Newsletter a, .footer .lfooter__Newsletter p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px; }
+  .footer .lfooter__socials h3 {
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5em; }
+  .footer .lfooter__socials a, .footer .lfooter__socials p {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    margin: 0 0 5px 0; }
+  .footer .lfooter__cr {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #848484;
+    line-height: 1.5em; }
+    .footer .lfooter__cr a {
+      color: #848484;
+      text-decoration: none; }
