@@ -84,7 +84,7 @@ article .Small {
     .footer .ufooterlinks__ext a {
       color: #000;
       text-decoration: none; }
-      .footer .ufooterlinks__ext a h3 {
+      .footer .ufooterlinks__ext a h2 {
         font-size: 15px;
         font-weight: 700;
         margin: 20px 0 0 0;
@@ -101,7 +101,7 @@ article .Small {
   .footer .lfooter a {
     color: #000;
     text-decoration: none; }
-  .footer .lfooter__storeTtl h3 {
+  .footer .lfooter__storeTtl h2 {
     font-family: 'Karla', sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -110,7 +110,7 @@ article .Small {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     font-weight: 300; }
-  .footer .lfooter__contact h3, .footer .lfooter__Newsletter h3 {
+  .footer .lfooter__contact h2, .footer .lfooter__Newsletter h2 {
     font-family: 'Karla', sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -118,7 +118,7 @@ article .Small {
   .footer .lfooter__contact a, .footer .lfooter__contact p, .footer .lfooter__Newsletter a, .footer .lfooter__Newsletter p {
     font-family: 'Open Sans', sans-serif;
     font-size: 13px; }
-  .footer .lfooter__socials h3 {
+  .footer .lfooter__socials h2 {
     font-family: 'Karla', sans-serif;
     font-size: 15px;
     font-weight: 400;
