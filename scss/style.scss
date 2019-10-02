@@ -10,6 +10,11 @@
   font-size: $font;
 }
 
+@mixin ItemFont(){
+  font-family: 'Karla', sans-serif;
+  margin: 0 0 40px 0;
+}
+
 .testing {
   width: percentage(5/7);
 }
@@ -66,8 +71,7 @@ header, main, footer{
 article{  
   .Large{
     .itemL{
-      font-family: 'Karla', sans-serif;
-      margin: 0 0 40px 0;
+      @include ItemFont();
       &__image{
         width: 1170px;
         margin-bottom: 18px;
@@ -91,8 +95,7 @@ article{
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 30px;
     .itemS{
-      font-family: 'Karla', sans-serif;
-      margin: 0 0 40px 0;
+      @include ItemFont();
       &__image{
         width: 370px;
         margin-bottom: 18px;
@@ -151,7 +154,7 @@ article{
     }
     &__storeTtl{
       h2{
-        @include footerHeadings()
+        @include footerHeadings();
       }
       p{
         @include footerParagraphs(12px);
@@ -160,7 +163,7 @@ article{
     }
     &__contact,&__Newsletter{
       h2{
-        @include footerHeadings()
+        @include footerHeadings();
       }
       a,p{
         display: block;
@@ -169,7 +172,7 @@ article{
     }
     &__socials{
       h2{
-        @include footerHeadings()
+        @include footerHeadings();
       }
       a,p{
         display: block;
