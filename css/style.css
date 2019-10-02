@@ -125,6 +125,7 @@ article .Small {
     line-height: 1.5em;
     margin-bottom: 30px; }
   .footer .lfooter__contact a, .footer .lfooter__contact p, .footer .lfooter__Newsletter a, .footer .lfooter__Newsletter p {
+    display: block;
     font-family: 'Open Sans', sans-serif;
     font-size: 13px; }
   .footer .lfooter__socials h2 {

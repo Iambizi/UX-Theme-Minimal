@@ -1,3 +1,15 @@
+@mixin footerHeadings() {
+  font-family: 'Karla', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1.5em;
+        margin-bottom: 30px;
+}
+@mixin footerParagraphs($font) {
+  font-family: 'Open Sans', sans-serif;
+  font-size: $font;
+}
+
 .testing {
   width: percentage(5/7);
 }
@@ -139,49 +151,34 @@ article{
     }
     &__storeTtl{
       h2{
-        font-family: 'Karla', sans-serif;
-        font-size: 15px;
-        font-weight: 400;
-        line-height: 1.5em;
-        margin-bottom: 30px;
+        @include footerHeadings()
       }
       p{
-        font-family: 'Open Sans', sans-serif;
-        font-size: 12px;
+        @include footerParagraphs(12px);
         font-weight: 300;
       }
     }
     &__contact,&__Newsletter{
       h2{
-        font-family: 'Karla', sans-serif;
-        font-size: 15px;
-        font-weight: 400;
-        line-height: 1.5em;
-        margin-bottom: 30px;
+        @include footerHeadings()
       }
       a,p{
-        font-family: 'Open Sans', sans-serif;
-        font-size: 13px;
+        display: block;
+        @include footerParagraphs(13px);
       }
     }
     &__socials{
       h2{
-        font-family: 'Karla', sans-serif;
-        font-size: 15px;
-        font-weight: 400;
-        line-height: 1.5em;
-        margin-bottom: 30px;
+        @include footerHeadings()
       }
       a,p{
         display: block;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 13px;
+        @include footerParagraphs(13px);
         margin: 0 0 5px 0;
       }
     }
     &__cr{
-      font-family: 'Open Sans', sans-serif;
-      font-size: 12px;
+      @include footerParagraphs(12px);
       font-weight: 300;
       color:#848484;
       line-height: 1.5em;
