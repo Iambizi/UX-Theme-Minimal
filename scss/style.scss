@@ -10,9 +10,9 @@
   font-size: $font;
 }
 
-@mixin ItemFont(){
+@mixin ItemFont($top){
   font-family: 'Karla', sans-serif;
-  margin: 0 0 40px 0;
+  margin: $top 0 40px 0;
 }
 
 .testing {
@@ -71,7 +71,7 @@ header, main, footer{
 article{  
   .Large{
     .itemL{
-      @include ItemFont();
+      @include ItemFont(0);
       &__image{
         width: 1170px;
         margin-bottom: 18px;
@@ -95,7 +95,7 @@ article{
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 30px;
     .itemS{
-      @include ItemFont();
+      @include ItemFont(0);
       &__image{
         width: 370px;
         margin-bottom: 18px;
@@ -118,8 +118,7 @@ article{
     display: grid;
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    font-family: 'Karla', sans-serif;
-    margin: 30px 0 40px 0;
+    @include ItemFont(30px);
     &links__ext{
       width: 274px;
       height: 91.5px;
